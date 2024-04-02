@@ -75,7 +75,7 @@ export default function Home() {
             <span className="absolute flex items-center my-5 mx-2">
               {dollarIconComponent()}
             </span>
-            <input id="BillInput" type="Bill" inputMode="numeric" name="Bill" className="text-end text-VDcyan text-2xl mt-1 px-3 py-2 bg-VLGcyan border-2 border-transparent shadow-sm placeholder-slate-400 focus:outline-none focus:border-Scyan block w-full rounded-md" placeholder="0" value={billInputVal} onChange={(e) => { setBillVal(Number.parseInt(e.target.value)), setBillInputVal(e.target.value) }} />
+            <input id="BillInput" type="Bill" name="Bill" className="text-end text-VDcyan text-2xl mt-1 px-3 py-2 bg-VLGcyan border-2 border-transparent shadow-sm placeholder-slate-400 focus:outline-none focus:border-Scyan block w-full rounded-md" placeholder="0" value={billInputVal} onChange={(e) => { setBillVal(Number.parseInt(e.target.value)), setBillInputVal(e.target.value) }} />
           </label>
 
           <div className="block">
