@@ -1,8 +1,8 @@
 # Zachary Dressel
 # Tip Calculator 
 # Recreate the front end of Tip Calculator
-# Peer Reviewer:
-# Peer Review:
+# Peer Reviewer: Michael Heckerman
+# Peer Review: Tested the code on my laptop to see if it worked, it did. Site worked on desktop and looked like the design. It worked on mobile but the buttons had to much space between them, other then that everything worked and almost looked perfect. 8/10 
 
 
 # Frontend Mentor - Tip calculator app
