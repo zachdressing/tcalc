@@ -1,3 +1,10 @@
+# Zachary Dressel
+# Tip Calculator 
+# Recreate the front end of Tip Calculator
+# Peer Reviewer:
+# Peer Review:
+
+
 # Frontend Mentor - Tip calculator app
 
 ![Design preview for the Tip calculator app coding challenge](./design/desktop-preview.jpg)
