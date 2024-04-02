@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
-import { Inter, Space_Mono } from "next/font/google";
+import {Space_Mono } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
 const space_Mono = Space_Mono({
   subsets: ["latin"],
   weight: "700"
