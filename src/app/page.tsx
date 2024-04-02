@@ -88,7 +88,7 @@ export default function Home() {
               {buttonFunc('15%', 15)}
               {buttonFunc('25%', 25)}
               {buttonFunc('50%', 50)}
-              <input className="h-14 w-32 rounded-lg text-DGcyan bg-VLGcyan text-2xl focus:ring-0 text-center" placeholder="Custom" onChange={(e) => setTipVal(Number.parseInt(e.target.value))}></input>
+              <input className="h-14 w-32 rounded-lg border-transparent border-2 text-DGcyan bg-VLGcyan text-2xl text-center hover:border-Scyan" placeholder="Custom" onChange={(e) => setTipVal(Number.parseInt(e.target.value))}></input>
             </div>
           </div>
 
@@ -115,7 +115,7 @@ export default function Home() {
             </div>
           </div>
           <div className="row">
-            <button className="w-full h-12 bg-Scyan rounded-lg text-3xl text-DGcyan" onClick={() => { handleReset() }}>RESET</button>
+            <button className="w-full h-12 bg-Scyan rounded-lg text-3xl text-DGcyan hover:bg-LGcyan" onClick={() => { handleReset() }}>RESET</button>
           </div>
         </div>
       </div>
