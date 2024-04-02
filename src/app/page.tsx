@@ -65,7 +65,7 @@ export default function Home() {
       <div className="w-24 pb-12 md:pb-24">
         {logoComponent()}
       </div>
-      <div className="md:w-4/5 h-fit min-h-[500px] flex flex-wrap md:flex-nowrap  justify-center bg-white rounded-3xl">
+      <div className="md:w-4/5 max-w-[1000px] h-fit min-h-[500px] flex flex-wrap md:flex-nowrap  justify-center bg-white rounded-3xl">
         <div className="col ml-12 mr-8 my-8 md:w-1/2 flex flex-col justify-around">
 
           <label className="block">
